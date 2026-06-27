@@ -124,7 +124,7 @@ function AuthScreen() {
                 setPassword(text);
                 setErrorMsg('');
               }}
-              secureTextEntry={!showPassword} // TOGGLE THIS
+              secureTextEntry={!showPassword} 
             />
             <TouchableOpacity onPress={() => setShowPassword(!showPassword)}>
               <MaterialIcons 
@@ -162,7 +162,7 @@ function AuthScreen() {
               setIsLogin(!isLogin);
               setErrorMsg('');
               setPassword('');
-              setShowPassword(false); // Reset eye icon
+              setShowPassword(false); 
             }}
           >
             <Text style={authStyles.toggleText}>
