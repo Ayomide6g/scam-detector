@@ -557,7 +557,7 @@ function AboutScreen({ onBack }) {
             <View style={aboutStyles.scamCardInner}>
               <MaterialIcons name="card-giftcard" size={24} color="#F59E0B" />
               <Text style={aboutStyles.scamTitle}>Fake Giveaways</Text>
-              <Text style={aboutStyles.scamDesc}>Fraudulent prize and lottery scams</Text>
+              <Text style={aboutStyles.scamDesc}>Fraudulent prize and Fake giveaway</Text>
             </View>
           </View>
           
@@ -565,7 +565,7 @@ function AboutScreen({ onBack }) {
             <View style={aboutStyles.scamCardInner}>
               <MaterialIcons name="trending-up" size={24} color="#10B981" />
               <Text style={aboutStyles.scamTitle}>Investment Scams</Text>
-              <Text style={aboutStyles.scamDesc}>Ponzi schemes and fake crypto offers</Text>
+              <Text style={aboutStyles.scamDesc}>Fraudulent Investment Offers</Text>
             </View>
           </View>
           
