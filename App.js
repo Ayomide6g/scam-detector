@@ -2627,7 +2627,7 @@ if (currentScreen === 'billing') return (
   <View style={styles.limitItem}> 
     <MaterialIcons name="verified" size={14} color="#2E7D32" /> 
     <Text style={styles.limitText}>
-      {checksLeft === null ? 'Loading...' : `${checksLeft} free checks remaining`}
+      {checksLeft === null ? 'Loading...' : checksLeft === 'unlimited' ? 'Unlimited Checks' : `${checksLeft} free checks remaining`}
     </Text> 
   </View> 
 </View>
