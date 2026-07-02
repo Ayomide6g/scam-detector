@@ -2568,7 +2568,7 @@ if (currentScreen === 'billing') return (
     
     <TouchableOpacity style={styles.upgradeBtn} onPress={() => setShowAdvance(true)}>
       <FontAwesome name="diamond" size={12} color="#FFFFFF" />
-      <Text style={styles.upgradeText}>Advance</Text>
+      <Text style={styles.upgradeText}>Advanced</Text>
     </TouchableOpacity>
   </View>
 </View>
