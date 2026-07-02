@@ -2734,7 +2734,7 @@ if (currentScreen === 'billing') return (
         {/* Trust Banner */}
         <View style={styles.trustBanner}>
           <MaterialIcons name="verified" size={16} color="#666" />
-          <Text style={styles.trustText}>Trusted by security experts and users worldwide</Text>
+          <Text style={styles.trustText}>Designed to help you stay safe online</Text>
           <View style={styles.avatars}>
             <View style={styles.avatarBadge}>
               <Text style={styles.avatarBadgeText}>10K+</Text>
@@ -2745,7 +2745,7 @@ if (currentScreen === 'billing') return (
             <FontAwesome name="star" size={12} color="#FFB300" />
             <FontAwesome name="star" size={12} color="#FFB300" />
             <FontAwesome name="star-half-full" size={12} color="#FFB300" />
-            <Text style={styles.ratingText}>4.9/5 from 10,000+ reviews</Text>
+            <Text style={styles.ratingText}>Launched in 2026 — join our early users.</Text>
           </View>
           </View>
         </View>
