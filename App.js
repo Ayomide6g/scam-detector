@@ -2737,8 +2737,6 @@ if (currentScreen === 'billing') return (
           <Text style={styles.trustText}>Designed to help you stay safe online</Text>
             <Text style={styles.ratingText}>Launched in 2026 — join our early users.</Text>
           </View>
-          </View>
-        </View>
       </ScrollView>
       <Modal
   visible={showLimitModal}
